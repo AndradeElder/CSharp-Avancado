@@ -21,7 +21,7 @@ namespace ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio
 
         public Pizza()
         {
-
+            Descricao = string.Empty;
         }
 
 
@@ -29,18 +29,13 @@ namespace ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio
         {
             if (sabor == "c")
             {
-                Sabor = "Calabresa";
+                sabor = "Calabresa";
             }
             else if (sabor == "f")
             {
-                Sabor = "Frango;";
+                sabor = "Frango;";
             }
             return sabor;
-
-            
-            
-            
-            
         }
 
         public string DefinirTamanho(string tamanho)

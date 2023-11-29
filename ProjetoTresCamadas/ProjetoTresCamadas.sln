@@ -3,17 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Camada de Apresentação", "Camada de Apresentação", "{D6874D7B-D382-40C3-8CAB-3291968575F0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Camada de Apresentação", "1. Camada de Apresentação", "{D6874D7B-D382-40C3-8CAB-3291968575F0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Camada de negocio", "Camada de negocio", "{64D17B15-B70F-40B0-8A8A-CA95A88A5C2F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Camada de negocio", "2. Camada de negocio", "{64D17B15-B70F-40B0-8A8A-CA95A88A5C2F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cama de acesso a dados", "Cama de acesso a dados", "{2BBD7430-A163-437B-B2BE-A7D163D2D714}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Camada de acesso a dados", "3. Camada de acesso a dados", "{2BBD7430-A163-437B-B2BE-A7D163D2D714}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmTresCamadas.Pizzaria.Console", "ProjetoEmTresCamadas.Pizzaria.Console\ProjetoEmTresCamadas.Pizzaria.Console.csproj", "{A2E7BAE8-F2A3-45C1-8A09-0784DFF893FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoEmTresCamadas.Pizzaria.Console", "ProjetoEmTresCamadas.Pizzaria.Console\ProjetoEmTresCamadas.Pizzaria.Console.csproj", "{A2E7BAE8-F2A3-45C1-8A09-0784DFF893FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio", "ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio\ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio.csproj", "{D6A6E8FC-F76D-4214-A0CA-71089247073E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio", "ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio\ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio.csproj", "{D6A6E8FC-F76D-4214-A0CA-71089247073E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmTresCamadas.Pizzaria.DAO", "ProjetoEmTresCamadas.Pizzaria.DAO\ProjetoEmTresCamadas.Pizzaria.DAO.csproj", "{F64A4C44-8ACD-4682-BA97-55E6ABAD121B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoEmTresCamadas.Pizzaria.DAO", "ProjetoEmTresCamadas.Pizzaria.DAO\ProjetoEmTresCamadas.Pizzaria.DAO.csproj", "{F64A4C44-8ACD-4682-BA97-55E6ABAD121B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{10FB3FC0-A40D-4BEC-AB55-76E96D03CE51}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
