@@ -27,10 +27,7 @@ sabores da pizza, tamanho e etc..
 
 Botão direito, adicionar projeto --> biblioteca de negocio
 
-
-
-
-
+todo if é uma regra de negocio (uma condicional)
 
 ============================================================================================================================================
 
@@ -41,8 +38,26 @@ Atalhos
 
 Contrutor = Escreve "ctor"
 
+F5-- cai direto no console
+F10-´pula a linha
+F11-- entra no metodo
+F12 --> leva direto para o metodo
 
 
 
 ============================================================================================================================================
 retunr this; (vai retornar o proprio objeto da classe)
+
+interpolação de string = $"O sabor escolhido {propriedade}"
+
+============================================================================================================================================
+como referenciar projeto
+
+botão direito nas "dependencias" -> "adcionar referencia de projeto"
+
+referencia circular (quando um projeto chama o outro) - java e C++ deixa fazer referencia circular
+
+
+============================================================================================================================================
+
+DAO - Data Acess Object
