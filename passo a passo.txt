@@ -1,0 +1,48 @@
+Cria a pasta
+
+Arquivo - > Novo projeto - Solução em branco
+
+Seleciona a solução -> Adcionar pasta -> colocar o nome (Camada de apresentação)
+
+Seleciona a solução -> Adcionar pasta -> colocar o nome (Camada de negocio)
+
+Seleciona a solução -> Adcionar pasta -> colocar o nome (Camada de acesso a dados)
+
+============================================================================================================================================
+
+Camada de apresentação é para Programs, forms, web (é a camada onde tem a entrada de usuário, onde tem a interação)
+
+clica na pasta -> adcionar -> novo projeto (pode ser um app de console)
+
+duas maneiras de rodar
+
+botão direito na camada principal e "definir projeto de inicialização"
+
+ou clica na setinha verde em cima
+=================================================================
+
+camada de negocio é onde a regras do código está
+
+sabores da pizza, tamanho e etc..
+
+Botão direito, adicionar projeto --> biblioteca de negocio
+
+
+
+
+
+
+============================================================================================================================================
+
+como conferir a versão .Net == Clica no projeto ou Clica com o botão direito e propriedade
+
+==================================
+Atalhos
+
+Contrutor = Escreve "ctor"
+
+
+
+
+============================================================================================================================================
+retunr this; (vai retornar o proprio objeto da classe)

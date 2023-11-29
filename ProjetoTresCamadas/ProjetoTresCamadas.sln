@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Camada de Apresentação", "Camada de Apresentação", "{D6874D7B-D382-40C3-8CAB-3291968575F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Camada de negocio", "Camada de negocio", "{64D17B15-B70F-40B0-8A8A-CA95A88A5C2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cama de acesso a dados", "Cama de acesso a dados", "{2BBD7430-A163-437B-B2BE-A7D163D2D714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmTresCamadas.Pizzaria.Console", "ProjetoEmTresCamadas.Pizzaria.Console\ProjetoEmTresCamadas.Pizzaria.Console.csproj", "{A2E7BAE8-F2A3-45C1-8A09-0784DFF893FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio", "ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio\ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio.csproj", "{D6A6E8FC-F76D-4214-A0CA-71089247073E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2E7BAE8-F2A3-45C1-8A09-0784DFF893FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E7BAE8-F2A3-45C1-8A09-0784DFF893FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E7BAE8-F2A3-45C1-8A09-0784DFF893FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E7BAE8-F2A3-45C1-8A09-0784DFF893FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A6E8FC-F76D-4214-A0CA-71089247073E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A6E8FC-F76D-4214-A0CA-71089247073E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A6E8FC-F76D-4214-A0CA-71089247073E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A6E8FC-F76D-4214-A0CA-71089247073E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A2E7BAE8-F2A3-45C1-8A09-0784DFF893FD} = {D6874D7B-D382-40C3-8CAB-3291968575F0}
+		{D6A6E8FC-F76D-4214-A0CA-71089247073E} = {64D17B15-B70F-40B0-8A8A-CA95A88A5C2F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3FCF7FA-D5C4-4E0D-B3B8-2BF429B51337}
+	EndGlobalSection
+EndGlobal
