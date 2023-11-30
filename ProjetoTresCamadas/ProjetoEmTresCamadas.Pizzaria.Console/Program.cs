@@ -1,5 +1,10 @@
 ﻿
+using ProjetoEmTresCamadas.Pizzaria.DAO;
 using ProjetoEmTresCamadas.Pizzaria.RegraDeNegocio;
+
+PizzaDAO pizzaDAO = new PizzaDAO();
+
+
 
 Console.WriteLine("Bem vindo a nossa pizzaria!");
 Console.WriteLine("Gostaria de uma pizza? S para sim e N para não");
@@ -18,9 +23,10 @@ if (resposta == "s")
     Console.WriteLine($"O sabor escolhido foi {pizza.DefinirTamanho(tamanho)}");
 
     Console.WriteLine($"Sua pizza é {pizza}");
-
+    pizzaDAO.CriaPizza( pizza );
 }
 
+var pizzas = pizzaDAO.ObterPizza;
 
 
 Console.WriteLine("Fim!");

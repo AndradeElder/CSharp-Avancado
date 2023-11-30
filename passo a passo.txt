@@ -73,3 +73,26 @@ criar pacote nuget
 
 projeto DAO
 depencendias --> gerenciar pacote nuget
+
+============================================================================================================================================
+conferir pacote nuget
+
+
+dependencias --> pacotes
+
+ou abre o projeto DAO e aparace
+
+qual o pacote esta usando
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
+  </ItemGroup>0
+
+============================================================================================
+baixamos o SqLite Browser.
+
+executamos o código para criar a tb_Pizza
+
+abrimos o banco de dadnos na pasta raiz --> console --> bin --> debug --> Pizza.db
+=============================================================================================
+colocar insert
